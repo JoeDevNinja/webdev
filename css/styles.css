@@ -10,6 +10,21 @@
 
 }
 
+@media screen and (max-width: 400px) {
+
+    .bottom-cloud {
+        display:none;
+    }
+
+    .top-cloud {
+       display: none;
+    }
+
+}
+
+
+
+
 body {
     background-color: white;
     margin: 0;
