@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1500px) {
     .bottom-cloud {
         display:none;
     }
@@ -10,28 +10,16 @@
 }
 
 
-/*Medium devices (landscape tablets, 768px and up) */
+/*Medium devices (landscape tablets, 600px and up) */
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 1600px) {
     .bottom-cloud {
-        position: absolute;
-        left:15.625rem;
-        bottom: 18.75rem;
-        max-width: 6.25rem;
-        height: 5rem;
+        display:none;
     }
 
     .top-cloud {
-        position: absolute;
-        right: 300px;
-        top: 40px;
-        height: 80px;
-        max-width: 6.25rem;
-        height: 5rem;
+       display: none;
     }
-    
-
 } 
 
 
