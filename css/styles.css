@@ -1,5 +1,5 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 700px and down) */
+@media only screen and (max-width: 800px) {
     
     .bottom-cloud {
         display:none;
@@ -13,7 +13,7 @@
 
 
 /*Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 8500px) {
     
     .bottom-cloud {
         position: absolute;
