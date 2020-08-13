@@ -1,3 +1,16 @@
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {  
+
+    .bottom-cloud {
+        display:none;
+    }
+
+    .top-cloud {
+       display: none;
+    }
+    
+}
+
 @media screen and (max-width: 500px) {
 
     .bottom-cloud {
