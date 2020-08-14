@@ -277,18 +277,15 @@ input, textarea {
    font-family: 'Merriweather', sans-serif;
    resize: none;
    border-radius: 8px;
-
-   margin-left: 5px;
+   margin-left: 7px;
 }
 
-/*
+
 
 div.half.right.cf {
-    margin-left: 5px;
-    width: 290px;
-    padding-left: 20px;
+
     height: 180px;
-} */
+} 
 
 div.half.left.cf {
     width: 16.875rem;
@@ -305,7 +302,28 @@ div.half.left.cf {
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
     cursor: pointer;
     border-radius: 8px;  
-    width: 93%;
+    width: 100%;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+
+
+
+
+
+
+
  }
 
  textarea {
@@ -348,19 +366,6 @@ div.half.left.cf {
 .cf:after {
     clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
