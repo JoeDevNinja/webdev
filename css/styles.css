@@ -8,6 +8,12 @@
     .top-cloud {
         display: none;
     }
+
+    .half {
+        width: 100%; 
+        float: none;
+        margin-bottom: 0; 
+     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -30,6 +36,13 @@
         max-width: 6.25rem;
         height: 5rem;
     }
+
+
+    .half {
+        width: 100%; 
+        float: none;
+        margin-bottom: 0; 
+     }
 
 }
 
@@ -259,41 +272,40 @@ input, textarea {
    border:0; outline:0;
    padding: 1em;
    display: block;
-   width: 100%;
+   width: 18.75rem;
    margin-top: 1em;
    font-family: 'Merriweather', sans-serif;
-   @include box-shadow(0 1px 1px rgba(black, 0.1));
    resize: none;
    border-radius: 8px;
+
+   margin-left: 5px;
 }
 
+/*
 
 div.half.right.cf {
     margin-left: 5px;
-    width: 330px;
+    width: 290px;
     padding-left: 20px;
     height: 180px;
-}
+} */
 
 div.half.left.cf {
-    width: 270px;
+    width: 16.875rem;
     border-radius: 8px;
-
 }
 
 #input-submit {
     color: white; 
-
-
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
     background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
     background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
     background-image: -o-linear-gradient(top, #11CDD4, #11999E);
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-   
     cursor: pointer;
     border-radius: 8px;  
+    width: 93%;
  }
 
  textarea {
@@ -307,7 +319,7 @@ div.half.left.cf {
     margin-bottom: 1em;
   
   }
-  
+
 .right { 
     width: 50%;
 
