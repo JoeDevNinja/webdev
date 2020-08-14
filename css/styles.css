@@ -278,6 +278,11 @@ input, textarea {
    resize: none;
    border-radius: 8px;
    margin-left: 7px;
+
+
+   display: inline-block;
+   cursor: pointer;
+
 }
 
 
@@ -302,28 +307,15 @@ div.half.left.cf {
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
     cursor: pointer;
     border-radius: 8px;  
-    width: 100%;
 
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    border: solid #337FED 1px;
-    text-decoration: none;
+    width: 92%;
+    margin-right: 45px;
+  
     display: inline-block;
     cursor: pointer;
     text-align: center;
 
-
-
-
-
-
-
-
+    
  }
 
  textarea {
