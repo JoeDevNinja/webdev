@@ -304,6 +304,8 @@ div.half.left.cf {
 }
 
 #input-submit {
+
+    /*
     color: white; 
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
@@ -313,14 +315,11 @@ div.half.left.cf {
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
     cursor: pointer;
     border-radius: 8px;  
-
-    
-  
     display: inline-block;
     cursor: pointer;
     text-align: center;
 
-
+    */
     
  }
 
