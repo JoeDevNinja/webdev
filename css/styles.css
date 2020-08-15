@@ -1,3 +1,6 @@
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -15,6 +18,9 @@
         margin-bottom: 0; 
      }
 }
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -308,12 +314,12 @@ div.half.left.cf {
     cursor: pointer;
     border-radius: 8px;  
 
-    width: 92%;
-    margin-right: 45px;
+    
   
     display: inline-block;
     cursor: pointer;
     text-align: center;
+
 
     
  }
@@ -358,6 +364,4 @@ div.half.left.cf {
 .cf:after {
     clear: both;
 }
-
-
 
