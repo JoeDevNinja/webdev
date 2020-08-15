@@ -264,7 +264,8 @@ hr {
 .elegent-form {
     text-align: center;
     color: #a8a8a8;
-    text-shadow:1px 1px 0 rgba white
+    text-shadow:1px 1px 0 rgba white;
+    float: left;
  }
  
 form {
@@ -284,22 +285,19 @@ input, textarea {
    resize: none;
    border-radius: 8px;
    margin-left: 7px;
-
-
    display: inline-block;
    cursor: pointer;
 
 }
 
-
-
 div.half.right.cf {
-
+    width: 55%;
     height: 180px;
 } 
 
 div.half.left.cf {
-    width: 16.875rem;
+    width: 15rem;
+    /*width: 16.875rem;*/
     border-radius: 8px;
 }
 
