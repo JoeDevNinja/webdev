@@ -324,14 +324,13 @@ div.half.left.cf {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    
     display: flex; 
 
 
     border:0; outline:0;
     padding: 1em;
     display: block;
-    width: 18.75rem;
+   
     margin-top: 1em;
     font-family: 'Merriweather', sans-serif;
     resize: none;
@@ -345,9 +344,10 @@ div.half.left.cf {
  }
 
  textarea {
-     height: 126px;
-     padding-right: 20pxß;
- }
+    height: 126px;
+    padding-right: 20pxß;
+}
+
 
 .half {
     float: left;
