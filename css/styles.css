@@ -315,6 +315,10 @@ div.half.left.cf {
     background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
     background-image: -o-linear-gradient(top, #11CDD4, #11999E);
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
     cursor: pointer;
     border-radius: 8px;  
     display: inline-block;
@@ -332,7 +336,8 @@ div.half.left.cf {
     font-family: 'Merriweather', sans-serif;
     resize: none;
     border-radius: 8px;
-    margin-left: 7px;
+    margin-left: 30px;
+
     display: inline-block;
     cursor: pointer;
 
